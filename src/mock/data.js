@@ -46,6 +46,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project3.png',
+    title: 'Blogging App Using Flask',
+    info: 'Blogging, app made using Flask. First it includes Account creation and login authorization. Then a particular user can add blogs and can modify or delete it.',
+    info2: 'User can change his/her profile pic and a normal user (without login) can browse over any blog post.',
+    url: 'http://pipebombx9.pythonanywhere.com/',
+    repo: 'https://github.com/anandxkumar/User_Blogs_FlaskApp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project1.jpg',
     title: 'Maze Solver Using Reinforcement Learning',
     info: "Developed a maze using tinker library and used reinforcement learning to solve the maze. Used Bellman's equation for learning and updating Q table",
@@ -53,15 +62,7 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/anandxkumar/Maze_Solver_Using_Reinforcement_Learning', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project1.jpg',
-    title: 'Blogging App Using Flask',
-    info: 'Blogging, app made using Flask. First it includes Account creation and login authorization. Then a particular user can add blogs and can modify or delete it.',
-    info2: 'User can change his/her profile pic and a normal user (without login) can browse over any blog post.',
-    url: 'http://pipebombx9.pythonanywhere.com/',
-    repo: 'https://github.com/anandxkumar/User_Blogs_FlaskApp', // if no repo, the button will not show up
-  },
+  
 ];
 
 // CONTACT DATA
