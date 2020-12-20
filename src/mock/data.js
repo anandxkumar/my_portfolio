@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '" KEEP LEARNING AND MAKE YOUR WORK SPEAK FOR YOURSELF"   - I LIVE BY THIS RULE ',
   paragraphTwo: 'Hi There ! Anand this side. I am a Junior at NIT Hamirpur, Himachal Pradesh, India pursuing my Dual Degree (BTech + MTech) in CSE. I am an AI enthusiast and a Web Developer. I mostly deal in the fields of Machine Learning, Deep Learning, Computer Vision and Web Development in Flask.',
   paragraphThree: 'I am a geek. I love life and computers and everything in between. Driven by passion and enthusiam I have worked on various DL, and Web projects at my previous internship at Mavoix Solutions Pvt. Ltd, Bangalore. Wanna know more about my projects ? Have a look below :)',
-  resume: 'https://drive.google.com/file/d/1f3GQJc4XYTLi40pv_jXBDx0Lkz1_UO-P/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1fg9o6yK1JJoQv4DvmtAeIhASP7RjbAX4/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
