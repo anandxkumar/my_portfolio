@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: #ffffff ;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: #ffffff;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -17,9 +17,10 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  //background: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+  background: url(../images/back.png);
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;

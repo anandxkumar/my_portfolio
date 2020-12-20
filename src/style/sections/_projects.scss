@@ -1,8 +1,12 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: #16161d;
+  color: $white-color;
   margin-top: -15rem;
   padding-top: 15rem;
+
+  // background: url(../images/back.png);
+  //background-position: center;
+ // background-size: cover; 
 
   @include respond(tab-land) {
     margin-top: 0;

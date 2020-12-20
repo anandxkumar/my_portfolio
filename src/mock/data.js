@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Anand Kumar | DL and Web Developer', // e.g: 'Name | Developer'
+  title: 'Anand Kumar | ML, DL and Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -33,15 +33,15 @@ export const projectsData = [
     info: 'A Quadruped Bot is a 4 legged bot. It is made of 3D printed anatomy and has 12 Degree of Freedoms. We used SG90 servo motors to give each node a 90 degree of movements. The bot is based on Arduino Uno and has the code for forward, backward, left, right, sit, stand and even hand shake movement by calibrating the values of easch servo.',
     info2: "It uses google's speech_recognition library to recognize audio and openCV to detect an object's movement and with the help of serial communication the bot moves accordingly.",
     url : 'https://drive.google.com/drive/folders/1wFSwNbHquq3OYhIbhwhG1ok1Zk67U0ec?usp=sharing',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/anandxkumar/quadruped_bot', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project2.jpg',
+    img: 'project2.PNG',
     title: 'Motion Controlled Game',
     info: 'This game is an obstacle avoiding game made on processing IDE in Java in which user has two option that it jump or duck the incoming obstacles. It has been interfaced with motion detector using socket communication between python and processing.',
     info2: 'Motion detector is made using openCV that uses webcam to get the frames and detects the object and tracks it. In low lighting one can put their palm in front of webcam to detect it. If the palm is slided up then the player will jump and if the palm is slided down then the player will duck.',
-    url: 'https://github.com/anandxkumar/Motion_Controlled_Game',
+    url: 'https://drive.google.com/drive/folders/1f3nedxXq539PweeTqBRpRR1kEg_USWMC?usp=sharing',
     repo: "https://github.com/anandxkumar/Motion_Controlled_Game", // if no repo, the button will not show up
   },
   {
@@ -55,11 +55,11 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project1.jpg',
+    img: 'project4.png',
     title: 'Maze Solver Using Reinforcement Learning',
     info: "Developed a maze using tinker library and used reinforcement learning to solve the maze. Used Bellman's equation for learning and updating Q table",
-    info2: '',
-    url: '',
+    info2: 'User can customize the maze accordingly, and the RL algo will try to find the shortest path under 100 epochs.',
+    url: 'https://drive.google.com/drive/folders/1xTqGyASJbTIq_kwfeYm9ZH2JEPgvrWU3?usp=sharing',
     repo: 'https://github.com/anandxkumar/Maze_Solver_Using_Reinforcement_Learning', // if no repo, the button will not show up
   },
   
