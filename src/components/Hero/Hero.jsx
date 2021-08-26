@@ -36,7 +36,12 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta || 'About Me'}
+              </Link>
+            </span>
+            <span className="cta-btn cta-btn--hero">
+              <Link to="projects" smooth duration={1000}>
+                {cta || 'Experiences'}
               </Link>
             </span>
           </p>
