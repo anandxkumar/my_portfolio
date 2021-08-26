@@ -1,6 +1,6 @@
-#projects {
-  background-color: #16161d;
-  color: $white-color;
+#experiences {
+  background-color: #e9e9d5;
+  color: #0f0f0d;
   margin-top: -15rem;
   padding-top: 15rem;
 
@@ -13,7 +13,7 @@
     padding-top: 5rem;
   }
 
-  .project-wrapper {
+  .experience-wrapper {
     margin-bottom: 15rem;
 
     @include respond(phone) {
