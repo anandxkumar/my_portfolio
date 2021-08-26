@@ -34,7 +34,7 @@ export const experiencesData = [
     info:
       'I was an Open Source Developer at Google Summer of Code 2021 as part of OpenAstronomy organization. I developed an optimum Lineshape solution for Radis Radiation increasing performance by 40x times for infrared spectrum calculation by writing 4200+ lines of code.',
     info2:
-      'Identified bottlenecks in current implementation by creating a self made Profiler that stores and prints the parameters, steps along their value and calculation time respectively. Derived/Verified the exact time complexity of all methods by running 50+ benchmarks and analyzing it using Tableau, Bokeh and MatplotLib.',
+      'Identified bottlenecks in current implementation by creating a self made Profiler that stores and prints the parameters, steps along their value and calculation time respectively. Derived/Verified the exact time complexity of all methods by running 50+ benchmarks and analyzing it using Tableau, Bokeh and MatplotLib. You can check out my whole summary of my GSoC journey by clicking the `See Live` button.',
     url: 'https://anandkumar-blog.netlify.app/',
     repo: 'https://github.com/radis/radis/projects/5', // if no repo, the button will not show up
   },
@@ -43,11 +43,22 @@ export const experiencesData = [
     img: 'Pikkal-Logo-Rectangle-Black.png',
     title: 'Pikkal & Co, Singapore',
     info:
-      "I'm a Made diverse Visualizations and Data Analysis primarily based on 1 Million+ podcasts data using Tableau. Built a prototype model for AWS Transcribe using Django and examined AWS Codeguru’s compatibility with the existing codebase.",
+      "I'm a former Data Analyst Intern at Pikkal & Co, Singapore where I made diverse Visualizations and Data Analysis primarily based on 1 Million+ podcasts data using Tableau to derive relation of Cadence(Constistency) of episodes of a PodcastS. Built a prototype model for AWS Transcribe using Django and examined AWS Codeguru’s compatibility with the existing codebase.",
     info2:
-      'Improved features of App2 Website; Increased accuracy/performance of NLP model by 15% by using new Web Scraping technique.',
-    url: 'https://drive.google.com/drive/folders/1f3nedxXq539PweeTqBRpRR1kEg_USWMC?usp=sharing',
-    repo: 'https://github.com/anandxkumar/Motion_Controlled_Game', // if no repo, the button will not show up
+      'Improved features of App2 Website; Increased accuracy/performance of NLP model by 15% by using new Web Scraping technique. See my report by clicking on `Optimizing Podcast Cadence` buy clicking See Live button.',
+    url: 'https://www.notion.so/3-Optimizing-Podcast-Cadence-e949b765feea4a4598f54fab6d6d611f',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'mavoix.png',
+    title: 'Mavoix Solutions Private Limited',
+    info:
+      "I'm a former Deep Learning Intern at Mavoix Solutions Private Limited, Bangalore where Built 3 OCR models using PyTesseract, Amazon Textract, and Google Vision to extract key components of a blood report for the Diabeat Application. I designed web scraper for scrapping symptoms, causes, treatment, diagnosis, and medicines for any disease from 15+ websites.",
+    info2:
+      'Created a recommendation system for patients based on 3 parameters - CBC Analysis, Manual Inputs, Chat Bot Assessment. Check the app by clicking on the See Live button.',
+    url: 'https://play.google.com/store/apps/details?id=in.mavoix.diabeat',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
