@@ -25,6 +25,31 @@ export const aboutData = {
     "I am a geek. I love life, computers and everything in between. I'm a Open Source Developer at GSoC'21 and a former Data Anaylst Intern at Pikkal & Co, Singapore. Driven by passion and enthusiam I have worked on various DL, and Web projects.",
   resume: 'https://drive.google.com/drive/folders/1phcx7PyrIfsuFxSTVaNrhbdGXabr0Z4G?usp=sharing', // if no resume, the button will not show up
 };
+// EXPERIENCE DATA
+export const experiencesData = [
+  {
+    id: nanoid(),
+    img: 'GSoC.png',
+    title: 'Google Summer of Code',
+    info:
+      'I was an Open Source Developer at Google Summer of Code 2021 as part of OpenAstronomy organization. I developed an optimum Lineshape solution for Radis Radiation increasing performance by 40x times for infrared spectrum calculation by writing 4200+ lines of code.',
+    info2:
+      'Identified bottlenecks in current implementation by creating a self made Profiler that stores and prints the parameters, steps along their value and calculation time respectively. Derived/Verified the exact time complexity of all methods by running 50+ benchmarks and analyzing it using Tableau, Bokeh and MatplotLib.',
+    url: 'https://anandkumar-blog.netlify.app/',
+    repo: 'https://github.com/radis/radis/projects/5', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Pikkal-Logo-Rectangle-Black.png',
+    title: 'Pikkal & Co, Singapore',
+    info:
+      "I'm a Made diverse Visualizations and Data Analysis primarily based on 1 Million+ podcasts data using Tableau. Built a prototype model for AWS Transcribe using Django and examined AWS Codeguru’s compatibility with the existing codebase.",
+    info2:
+      'Improved features of App2 Website; Increased accuracy/performance of NLP model by 15% by using new Web Scraping technique.',
+    url: 'https://drive.google.com/drive/folders/1f3nedxXq539PweeTqBRpRR1kEg_USWMC?usp=sharing',
+    repo: 'https://github.com/anandxkumar/Motion_Controlled_Game', // if no repo, the button will not show up
+  },
+];
 
 // PROJECTS DATA
 export const projectsData = [
