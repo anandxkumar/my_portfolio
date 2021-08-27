@@ -3,6 +3,7 @@ import Hero from './Hero/Hero';
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
+import Achievements from './Achievements/Achievements';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
@@ -13,6 +14,7 @@ import {
   aboutData,
   experiencesData,
   projectsData,
+  achievementsData,
   contactData,
   footerData,
 } from '../mock/data';
@@ -22,6 +24,7 @@ function App() {
   const [about, setAbout] = useState({});
   const [experience, setExperience] = useState([]);
   const [projects, setProjects] = useState([]);
+  const [achievements, setAchievements] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
@@ -30,16 +33,18 @@ function App() {
     setAbout({ ...aboutData });
     setExperience([...experiencesData]);
     setProjects([...projectsData]);
+    setAchievements([...achievementsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, experience, projects, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, experience, projects, achievements, contact, footer }}>
       <Hero />
       <About />
       <Experience />
       <Projects />
+      <Achievements />
       <Contact />
       <Footer />
     </PortfolioProvider>

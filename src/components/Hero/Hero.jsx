@@ -49,6 +49,16 @@ const Header = () => {
                 {cta || 'Projects'}
               </Link>
             </span>
+            <span className="cta-btn cta-btn--hero">
+              <Link to="achievements" smooth duration={1000}>
+                {cta || 'Achievements'}
+              </Link>
+            </span>
+            <span className="cta-btn cta-btn--hero">
+              <Link to="contact" smooth duration={1000}>
+                {cta || 'Contact'}
+              </Link>
+            </span>
           </p>
         </Fade>
       </Container>

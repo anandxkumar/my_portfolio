@@ -110,6 +110,39 @@ export const projectsData = [
   },
 ];
 
+// EXPERIENCE DATA
+export const achievementsData = [
+  {
+    id: nanoid(),
+    img: 'DSC_0683.JPG',
+    title: 'Best Technical Team Award - Hack 4.0',
+    info:
+      'Secured 1st position in Technical Team Category at HACK 4.0 Hackathon. Presented an AI based Quadruped-Bot in a team of 3 where I leaded the team of 3 in the Hack 4.0 Hackathon conducted by Computer Science Engineers Community, NIT Hamirpur, India.',
+    info2: '',
+    url: 'https://github.com/anandxkumar/quadruped_bot',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'IMG_20200306_230449.jpg',
+    title: 'Semi-Finalist at HackOverflow 3.0',
+    info:
+      'Semi-Finalist at HackOverflow 3.0 Hackathon. Presented the AI based Quadruped-Bot in a team of 4 where I leaded the team of 4 in the HackOverflow 3.0 Hackathon conducted by Chandigarh University, India.',
+    info2: '',
+    url: 'https://drive.google.com/file/d/1epxLpR1YtpnhbmYiL4VcyJEyepu-P5Ue/view?usp=sharingt',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'DSC_0025.JPG',
+    title: 'AI-Bot Workshop',
+    info:
+      'Mentored 300+ students at AI Bot Workshop, NIT Hamirpur and gave presentation on AI where 60+ teams were able to complete their AI based obstacle avoidance bot which was based on Node MCU, bluetooth module (controlled via Mobile App), chassis and 2 tyres.',
+    info2: '',
+    repo: '', // if no repo, the button will not show up
+  },
+];
+
 // CONTACT DATA
 export const contactData = {
   cta: '',
