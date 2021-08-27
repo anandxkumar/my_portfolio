@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '"JUST HAVE A DREAM AND EVERYTHING WILL SORTED"  :) ',
+  paragraphOne: '"JUST HAVE A DREAM AND EVERYTHING WILL BE SORTED"  :) ',
   paragraphTwo:
     'Hi There! Anand this side. I am a Final Year student at NIT Hamirpur, Himachal Pradesh, India pursuing my Dual Degree (BTech + MTech) in CSE. I am an AI enthusiast and a Open Source Developer. I mostly deal in the fields of Data Analytics, Deep Learning, Computer Vision and Web Development (Flask, Django).',
   paragraphThree:
