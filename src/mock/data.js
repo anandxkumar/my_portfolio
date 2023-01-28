@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Anand Kumar | Data Scientist | Open Source Developer', // e.g: 'Name | Developer'
+  title: 'Anand Kumar | Software Engineer | Open Source Developer | Data Scientist', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Anand Kumar',
-  subtitle: 'I am a Data Scientist and an Open Source Developer',
+  subtitle: 'I am a Software Engineer | Open Source Developer | Data Scientist',
   cta: '',
 };
 // The software of your thoughts
@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '"JUST HAVE A DREAM AND EVERYTHING WILL BE SORTED"  :) ',
   paragraphTwo:
-    'Hi There! Anand this side. I am a Final Year student at NIT Hamirpur, Himachal Pradesh, India pursuing my Dual Degree (BTech + MTech) in CSE. I am an AI enthusiast and a Open Source Developer. I mostly deal in the fields of Data Analytics, Deep Learning, Computer Vision and Web Development (Flask, Django).',
+    "I'm a Software Engineer with experience across numerous domains and technologies. I believe Software Development is the means through which I can do what I love the most i.e. bringing new and exciting ideas into the world. The work your firm has been doing in the field of technology is really exciting and game-changing, and I believe there are so many exciting problems yet to be solved with the help of technology.",
   paragraphThree:
-    "I am a geek. I love life, computers and everything in between. I'm a Open Source Developer at GSoC'21 and a former Data Anaylst Intern at Pikkal & Co, Singapore. Driven by passion and enthusiam I have worked on various DL, and Web projects.",
+    'I have worked for companies like Goldman Sachs, Red Hat, Google Summer of Code, and various fast-paced International Startups, with strong hold on Python, Go, C++, Java, Full Stack Development, DevOps, Data Science, Data Analytics, Deep Learning.',
   resume: 'https://drive.google.com/drive/folders/1phcx7PyrIfsuFxSTVaNrhbdGXabr0Z4G?usp=sharing', // if no resume, the button will not show up
 };
 // EXPERIENCE DATA
