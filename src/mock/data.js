@@ -39,6 +39,17 @@ export const experiencesData = [
   },
   {
     id: nanoid(),
+    img: 'Goldman_Sachs_Blue_Box.png',
+    title: 'Goldman Sachs',
+    info:
+      "Software Engineer Intern at one the world's biggest Financial Service Firm. Restructured Data Model of Guidance Panel of the COBN portal by combining all data models into a single data model and parsed data using Sybase SQL, Reladomo ORM, Java.",
+    info2:
+      'Created REST API to fetch guidance from the new data model and used Redux-Saga to update the states on frontend based on React JS. Modernized Frontend by adding new features like adding tabs, collapse sections to make guidance panel more structured and easier for users to navigate through it.',
+    url: 'https://www.goldmansachs.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'GSoC.png',
     title: 'Google Summer of Code',
     info:
@@ -50,10 +61,21 @@ export const experiencesData = [
   },
   {
     id: nanoid(),
+    img: 'radis_ico.png',
+    title: 'Radis',
+    info:
+      'Project Maintainer at Radis Open-Source organization with 150+ stars. Successfully Mentored 4 projects under Google Summer of Code 2022, performed code reviews, resolved issues, and guided mentees throughout the program',
+    info2:
+      'Became 3rd highest contributor with 130+ commits. Published a new version on PyPI and drafted a new release on GitHub.',
+    url: 'https://github.com/radis/radis/graphs/contributors',
+    repo: 'https://radis.readthedocs.io/en/latest/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: '1607792959340.jpeg',
     title: 'Bookscribs, USA',
     info:
-      'Worked on budget prediction model using 7 different parameters of a movie script based on its story adaptation. Preprocessed 560+ data, trained model using different loss functions using scipy optimize library (rosa) and custom Root Mean Square Error function, and compared performance with baseline method.',
+      'Data Science Intern at Bookscribs, a US based Startup. Worked on budget prediction model using 7 different parameters of a movie script based on its story adaptation. Preprocessed 560+ data, trained model using different loss functions using scipy optimize library (rosa) and custom Root Mean Square Error function, and compared performance with baseline method.',
     info2:
       'Annotated over 1500+ sentences for 10 Cinematic Syntax Assimilation Parameters for different indicators analyzing Sentimentality with respect to CSA parameter.',
     url: 'https://bookscribs.com/',
