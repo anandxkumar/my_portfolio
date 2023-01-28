@@ -29,6 +29,16 @@ export const aboutData = {
 export const experiencesData = [
   {
     id: nanoid(),
+    img: 'rh.png',
+    title: 'Red Hat',
+    info:
+      "Software Engineer Intern at the world's biggest Enterprise Open-Source Organization. Currently working on Tekton - A Kubernetes-based CI/CD Pipeline using Go Lang. Also working on OpenShift, downstream version of Tekton.",
+    info2: '',
+    url: 'https://www.redhat.com/en',
+    repo: 'https://github.com/tektoncd/pipeline', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'GSoC.png',
     title: 'Google Summer of Code',
     info:
@@ -40,6 +50,17 @@ export const experiencesData = [
   },
   {
     id: nanoid(),
+    img: '1607792959340.jpeg',
+    title: 'Bookscribs, USA',
+    info:
+      'Worked on budget prediction model using 7 different parameters of a movie script based on its story adaptation. Preprocessed 560+ data, trained model using different loss functions using scipy optimize library (rosa) and custom Root Mean Square Error function, and compared performance with baseline method.',
+    info2:
+      'Annotated over 1500+ sentences for 10 Cinematic Syntax Assimilation Parameters for different indicators analyzing Sentimentality with respect to CSA parameter.',
+    url: 'https://bookscribs.com/',
+    repo: 'https://github.com/nlpsandbox', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Pikkal-Logo-Rectangle-Black.png',
     title: 'Pikkal & Co, Singapore',
     info:
@@ -47,7 +68,7 @@ export const experiencesData = [
     info2:
       'Improved features of App2 Website; Increased accuracy/performance of NLP model by 15% by using new Web Scraping technique. See my report by clicking on `Optimizing Podcast Cadence` buy clicking See Live button.',
     url: 'https://www.notion.so/3-Optimizing-Podcast-Cadence-e949b765feea4a4598f54fab6d6d611f',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://www.pikkal.com/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,7 +78,7 @@ export const experiencesData = [
       "I'm a former Deep Learning Intern at Mavoix Solutions Private Limited, Bangalore where Built 3 OCR models using PyTesseract, Amazon Textract, and Google Vision to extract key components of a blood report for the Diabeat Application. I designed web scraper for scrapping symptoms, causes, treatment, diagnosis, and medicines for any disease from 15+ websites.",
     info2:
       'Created a recommendation system for patients based on 3 parameters - CBC Analysis, Manual Inputs, Chat Bot Assessment. Check the app by clicking on the See Live button.',
-    url: 'https://play.google.com/store/apps/details?id=in.mavoix.diabeat',
+    url: 'https://mavoix.in/',
     repo: '', // if no repo, the button will not show up
   },
 ];
