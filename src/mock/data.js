@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '"JUST HAVE A DREAM AND EVERYTHING WILL BE SORTED"  :) ',
   paragraphTwo:
-    "I'm a Software Engineer with experience across numerous domains and technologies. I believe Software Development is the means through which I can do what I love the most i.e. bringing new and exciting ideas into the world. The work your firm has been doing in the field of technology is really exciting and game-changing, and I believe there are so many exciting problems yet to be solved with the help of technology.",
+    "I'm a Software Engineer with experience across numerous domains and technologies. I believe Software Development is the means through which I can do what I love the most i.e. bringing new and exciting ideas into the world. My key strength is problem solving, and I believe there are so many exciting problems yet to be solved with the help of technology.",
   paragraphThree:
-    'I have worked for companies like Goldman Sachs, Red Hat, Google Summer of Code, and various fast-paced International Startups, with strong hold on Python, Go, C++, Java, Full Stack Development, DevOps, Data Science, Data Analytics, Deep Learning.',
+    'I have worked for companies like Goldman Sachs, Red Hat, Google Summer of Code, and various fast-paced International Startups, with strong hold on Python, Go, C++, Java, Full Stack Development, DevOps, Data Science, Data Analytics, Deep Learning. I have been responsible for performance improvement (upto 40x), code improvement, new model creations and implementation of proof of concept projects.',
   resume: 'https://drive.google.com/drive/folders/1phcx7PyrIfsuFxSTVaNrhbdGXabr0Z4G?usp=sharing', // if no resume, the button will not show up
 };
 // EXPERIENCE DATA
@@ -97,9 +97,9 @@ export const experiencesData = [
     img: 'mavoix.png',
     title: 'Mavoix Solutions Private Limited',
     info:
-      "I'm a former Deep Learning Intern at Mavoix Solutions Private Limited, Bangalore where Built 3 OCR models using PyTesseract, Amazon Textract, and Google Vision to extract key components of a blood report for the Diabeat Application. I designed web scraper for scrapping symptoms, causes, treatment, diagnosis, and medicines for any disease from 15+ websites.",
+      "I'm a former Deep Learning Intern at Mavoix Solutions Private Limited, Bangalore where Introduced 3 OCR models using PyTesseract, Google Vision and AWS Textract for extracting various blood tests and their values from CBC reports, Urine tests, etc. ",
     info2:
-      'Created a recommendation system for patients based on 3 parameters - CBC Analysis, Manual Inputs, Chat Bot Assessment. Check the app by clicking on the See Live button.',
+      'Designed a web scraper for searching websites and extracting Causes, Symptoms, Treatment, and Diagnoses of any disease and also finding medicines for the same. Devised recommendation system in which we will get 3 inputs from the user, find abnormalities and give suggestions accordingly.',
     url: 'https://mavoix.in/',
     repo: '', // if no repo, the button will not show up
   },
